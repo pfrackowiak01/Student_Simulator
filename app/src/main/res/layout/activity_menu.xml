@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dusty_background"
+    tools:context=".MenuActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symulator przetrwania na studiach"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Klikaj, aby zdać sesje!"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/nowaGraButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="10dp"
+                    android:onClick="startService"
+                    android:text="Nowa gra"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/sklepMenuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="10dp"
+                    android:text="Sklep"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/rekordyButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="10dp"
+                    android:text="Rekordy"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/startServiceButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="10dp"
+                    android:onClick="startService"
+                    android:text="Rozpocznij Serwis"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/stopServiceButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="10dp"
+                    android:onClick="stopService"
+                    android:text="Zakoncz Serwis"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/zapisWynikuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="10dp"
+                    android:onClick="openZapisWynikuActivity"
+                    android:text="Zapisz wynik"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/locationButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="10dp"
+                    android:onClick="openLocationActivity"
+                    android:text="Pokaż lokalizacje"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
