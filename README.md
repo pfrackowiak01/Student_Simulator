@@ -13,3 +13,7 @@ It's a clicker with extra features:
 - Fragments
 - Countdown timer
 - Implicit intent (taking a photo)
+
+---
+
+Game description in Polish (with screens) is called "Opis_Aplikacji_Pawel_Frackowiak.pdf"
