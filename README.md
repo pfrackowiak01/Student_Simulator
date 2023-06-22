@@ -1,5 +1,5 @@
 # Student Simulator
-Mobile game project for my studies in Android Studio.
+Mobile game project for my studies in Android Studio (Java).
 
 ---
 
