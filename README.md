@@ -16,4 +16,4 @@ It's a clicker with extra features:
 
 ---
 
-Game description in Polish (with screens) is called "Opis_Aplikacji_Pawel_Frackowiak.pdf"
+"Opis_Aplikacji_Pawel_Frackowiak.pdf" is the game description in Polish (with screens).
