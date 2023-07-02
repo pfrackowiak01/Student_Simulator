@@ -16,4 +16,4 @@ It's a clicker with extra features:
 
 ---
 
-"Opis_Aplikacji_Pawel_Frackowiak.pdf" is the game description in Polish (with screens).
+[Opis_Aplikacji_Pawel_Frackowiak.pdf](https://github.com/pfrackowiak01/Student_Simulator/blob/main/Opis_Aplikacji_Pawel_Frackowiak.pdf) - this is a description of the game in Polish (with screens).
