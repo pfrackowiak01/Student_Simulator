@@ -3,7 +3,8 @@ Mobile game project for my studies in Android Studio (Java).
 
 ---
 
-It's a clicker with extra features:
+### It's a clicker with extra features:
+
 - ListView
 - ArrayAdapter
 - ActivityResultLauncher
@@ -16,4 +17,6 @@ It's a clicker with extra features:
 
 ---
 
-[Opis_Aplikacji_Pawel_Frackowiak.pdf](https://github.com/pfrackowiak01/Student_Simulator/blob/main/Opis_Aplikacji_Pawel_Frackowiak.pdf) - this is a description of the game in Polish (with screens).
+#### [Opis_Aplikacji_Pawel_Frackowiak.pdf](https://github.com/pfrackowiak01/Student_Simulator/blob/main/Opis_Aplikacji_Pawel_Frackowiak.pdf) - this is a description of the game in Polish (with screens).
+
+---
